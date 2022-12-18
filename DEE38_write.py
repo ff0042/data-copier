@@ -17,7 +17,7 @@ if __name__ == '__main__':
     configs = dict(os.environ.items())
     # 'postgresql://retail_user:itversity@localhost:5452/retail_db'
     conn = f'postgresql://{configs["DB_USER"]}:{configs["DB_PASS"]}@{configs["DB_HOST"]}:{configs["DB_PORT"]}/{configs["DB_NAME"]}'
-    load_db_table(df, conn, 'users', df['user_id'])
+    load_db_table(df, conn, 'users', 'user_id')
 
 
 
