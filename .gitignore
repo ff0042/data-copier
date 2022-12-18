@@ -1,3 +1,5 @@
 /dc-venv/
 /retail_pg/
 data-copier.pyproj
+__pycache__/DEE38_read.cpython-310.pyc
+__pycache__/DEE38_write.cpython-310.pyc
